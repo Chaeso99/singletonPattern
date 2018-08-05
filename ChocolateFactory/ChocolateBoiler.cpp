@@ -1,7 +1,10 @@
 #include "ChocolateBoiler.h"
+#include <iostream>
 
 ChocolateBoiler::ChocolateBoiler()
 {
+  std::cout << "Creating singleton object!" << std::endl;
+
   boilerEmpty = true;
   contentBoiled = false;
 }
